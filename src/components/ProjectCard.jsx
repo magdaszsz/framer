@@ -11,7 +11,7 @@ function ProjectCard({data}) {
 
     <div className='project-card'>
       <h2>{data.title}</h2>
-  <Link to={`/projects/${data.id}`}>details</Link>
+  <Link to={`/projects/${data.id}`}><button>details</button></Link>
     </div>
     </AnimatedPage>
   )

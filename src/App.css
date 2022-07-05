@@ -6,7 +6,11 @@
 aside {
   height: 100vh;
   width: 20rem;
-  border: 2px solid red;
+  //border: 2px solid red;
+}
+
+main {
+  width: 80%;
 }
 
 .active {
@@ -21,7 +25,8 @@ aside {
 
 .project-card {
   padding: 2rem;
-  border: 2px solid yellow;
+  border-radius: 10px;
+  box-shadow: 0 0 5px lightgray;
 }
 
 .project-image {
@@ -32,4 +37,14 @@ aside {
 img {
   height: 25rem;
   width: auto;
+}
+
+button {
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  padding: .5rem .8rem;
+  border: none;
+  cursor: pointer;
+
 }
