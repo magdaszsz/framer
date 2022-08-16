@@ -1,6 +1,11 @@
+body {
+  background: #1a1a2e;
+  color: hsl(230, 46%, 95%);
+}
+
 .app-container {
   display: flex;
-  
+  overflow: hidden;
 }
 
 aside {
@@ -11,6 +16,10 @@ aside {
 
 main {
   width: 80%;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem;
 }
 
 .active {
@@ -18,7 +27,7 @@ main {
 }
 
 .projects-container {
-  display: flex;
+  //display: flex;
   gap: 3rem;
   flex-wrap: wrap;
 }
@@ -31,7 +40,7 @@ main {
 
 .project-image {
   height: 25rem;
-  border: 2px solid green;
+  //border: 2px solid green;
 }
 
 img {
@@ -43,8 +52,44 @@ button {
   background-color: black;
   color: white;
   border-radius: 20px;
-  padding: .5rem .8rem;
+  padding: 0.5rem 0.8rem;
   border: none;
   cursor: pointer;
+}
 
+/* SINGLE PROJECT CARD */
+
+.single-project-card {
+}
+
+.project-links {
+  padding: 2rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.btn {
+  border-radius: 20px;
+  border: 2px solid #E94560;
+  width: 5rem;
+  padding-block: 0.3rem;
+  display: flex;
+  justify-content: center;
+  transition: all 0.5s ease-out;
+  color:  #E94560;
+}
+
+.btn-dark {
+  background: #E94560;
+  color: white;
+}
+
+.btn:hover {
+  background:  #E94560;
+  color: white;
+}
+
+.btn-dark:hover {
+  background: none;
+  color:  #E94560;
 }

@@ -14,6 +14,8 @@ const AnimatedPage = ({ children }) => {
       initial="initial"
       animate="animate"
       exit="exit"
+      // transition={{duration: 2}}
+     
      
     >
       {children}
